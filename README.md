@@ -11,3 +11,8 @@
 ```
 go get github.com/heiwa4126/gohello
 ```
+
+# 参考
+
+- [Go で書いた CLI ツールのリリースは GoReleaser と GitHub Actions で個人的には決まり | tellme.tokyo](https://tellme.tokyo/post/2020/02/04/release-go-cli-tool/)
+- [GoReleaser](https://goreleaser.com/)
