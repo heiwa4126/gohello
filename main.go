@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-var version string
-var revision string
+var Version string
+var Revision string
 
 func main() {
 	fmt.Println("Hello world!")
-	fmt.Printf("version: %s-%s\n", version, revision)
+	fmt.Printf("version: %s-%s\n", Version, Revision)
 }
