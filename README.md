@@ -6,6 +6,12 @@
 内容自体は、hello worldに毛が生えたようなもの。
 (少しだけ引数を取る、とかにしていく予定)
 
+
+# プロジェクトの場所
+
+- GitHub : [heiwa4126/gohello: GoReleaserの練習](https://github.com/heiwa4126/gohello)
+
+
 # install
 
 ```
