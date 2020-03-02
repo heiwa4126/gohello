@@ -6,6 +6,7 @@
 内容自体は、hello worldに毛が生えたようなもの。
 (少しだけ引数を取る、とかにしていく予定)
 
+![](https://github.com/heiwa4126/gohello/workflows/release/badge.svg)
 
 # プロジェクトの場所
 
