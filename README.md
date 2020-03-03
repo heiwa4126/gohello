@@ -33,6 +33,7 @@ go get github.com/heiwa4126/gohello
 - [Go で書いた CLI ツールのリリースは GoReleaser と GitHub Actions で個人的には決まり | tellme.tokyo](https://tellme.tokyo/post/2020/02/04/release-go-cli-tool/)
 - [GoReleaser](https://goreleaser.com/)
 - [goreleaser+go-github-selfupdateでお手軽自動リリース&amp;アップデート - Qiita](https://qiita.com/mpppk/items/ab328356ca14938a1208)
+- [Customization · GoReleaser](https://goreleaser.com/customization/#NFPM)
 
 # 履歴
 
@@ -47,3 +48,8 @@ go get github.com/heiwa4126/gohello
 
 ## v0.0.3
 - モジュールの例と、ユニットテストを追加してみた
+
+(省略)
+
+## v0.0.6
+- nfpmで.rpmと.debもビルド&リリースするようにした。
