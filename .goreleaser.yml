@@ -36,3 +36,26 @@ archives:
         format: zip
 release:
   prerelease: auto
+
+# copy from https://github.com/cohenjo/replicator/blob/master/.goreleaser.yml
+nfpm:
+  name_template: '{{ .ProjectName }}_{{ .Arch }}'
+  homepage:  https://github.com/heiwa4126/gohello
+  description: A example code for GitHub Actions + goreleaser
+  maintainer: heiwa4126 <heiwa4126@gmail.com>
+  license: MIT
+  vendor: Me
+  formats:
+    - deb
+    - rpm
+  recommends:
+    - rpm
+  bindir:  /usr/local/bin/
+
+  # empty_folders:
+  #   - /var/log/gohello
+  # files:
+  #   "init/gohello.service": "/usr/lib/systemd/system/gohello.service"
+  #   "resources/**/*": "/usr/local/gohello/resources/"
+  # config_files:
+  #   "conf/gohello.conf.sample": "/etc/gohello.conf"
