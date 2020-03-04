@@ -7,7 +7,9 @@ import (
 )
 
 var (
-	Version  string
+	// Version ...
+	Version string
+	// Revision =$(git rev-parse --short HEAD)
 	Revision string
 )
 
