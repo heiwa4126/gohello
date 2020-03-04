@@ -8,9 +8,9 @@ import (
 
 var (
 	// Version ...
-	Version string = "v0.0.0"
+	Version string = "v9.9.9"
 	// Revision =$(git rev-parse --short HEAD)
-	Revision string = "9abcdef"
+	Revision string = "9999999"
 )
 
 func main() {
