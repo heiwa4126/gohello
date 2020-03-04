@@ -2,15 +2,18 @@ package main
 
 import (
 	"fmt"
+
 	"gihub.com/heiwa4126/gohello/calc"
 )
 
-var Version string
-var Revision string
+var (
+	Version  string
+	Revision string
+)
 
 func main() {
 	fmt.Println("Hello world!")
-	fmt.Printf("version: %s-%s\n", Version, Revision)
+	fmt.Printf("version: %s (%s)\n", Version, Revision)
 
 	a := 1
 	b := 2
