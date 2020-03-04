@@ -1,5 +1,6 @@
-// some module example
 package calc
+
+// some module example
 
 // Add do something bra bra
 func Add(x, y int) int {
