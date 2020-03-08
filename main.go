@@ -13,8 +13,12 @@ var (
 	Revision string = "9999999"
 )
 
-func main() {
+func sayAnything() {
 	fmt.Println("Hello world!")
+}
+
+func main() {
+	sayAnything()
 	fmt.Printf("version: %s (%s)\n", Version, Revision)
 
 	a := 1
