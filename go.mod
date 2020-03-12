@@ -1,3 +1,3 @@
-module gihub.com/heiwa4126/gohello
+module github.com/heiwa4126/gohello
 
 go 1.14

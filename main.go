@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gihub.com/heiwa4126/gohello/calc"
+	"github.com/heiwa4126/gohello/calc"
 )
 
 var (
