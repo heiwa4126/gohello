@@ -53,3 +53,6 @@ go get github.com/heiwa4126/gohello
 
 ## v0.0.6
 - nfpmで.rpmと.debもビルド&リリースするようにした。
+
+## v0.0.8
+- go.modで`github`が`gihub`になってたのを直した。これはひどい。
