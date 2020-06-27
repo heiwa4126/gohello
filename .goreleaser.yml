@@ -1,4 +1,3 @@
-project_name: gohello
 env:
   - GO111MODULE=on
 before:
@@ -6,6 +5,8 @@ before:
     - go mod tidy
 builds:
   - main: .
+    env:
+      - CGO_ENABLED=1
     binary: gohello
     goos:
       - windows
@@ -23,8 +24,6 @@ builds:
       - -s -w
       - -X main.Version={{.Version}}
       - -X main.Revision={{.ShortCommit}}
-    env:
-      - CGO_ENABLED=0
 archives:
   - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
     replacements:
