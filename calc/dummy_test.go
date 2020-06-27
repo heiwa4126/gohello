@@ -1,7 +1,7 @@
 package calc
 
 import (
-	"fmt"
+	"bytes"
 	"io/ioutil"
 	"testing"
 )
@@ -14,7 +14,7 @@ func TestDummy(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	fmt.Printf("read : %x\n", data)
-	fmt.Printf("wants: %x\n", wants)
-	t.Fatal("TestDummy()")
+	if !bytes.Equal(data, wants) {
+		t.Fatalf("\nread : %x\nwants: %x\n", data, wants)
+	}
 }
