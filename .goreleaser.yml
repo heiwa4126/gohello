@@ -26,6 +26,13 @@ builds:
       - -s -w
       - -X github.com/heiwa4126/gohello/cli.Version={{.Version}}
       - -X github.com/heiwa4126/gohello/cli.Revision={{.ShortCommit}}
+    hooks:
+        post:
+          upx
+            dist/gohello_linux_amd64/gohello
+            dist/gohello_darwin_amd64/gohello
+            dist/gohello_windows_amd64/gohello.exe
+            dist/gohello_windows_386/gohello.exe
 archives:
   - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
     replacements:
