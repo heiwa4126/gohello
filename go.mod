@@ -1,5 +1,5 @@
 module github.com/heiwa4126/gohello
 
-go 1.14
+go 1.15
 
 require github.com/kami-zh/go-capturer v0.0.0-20171211120116-e492ea43421d
