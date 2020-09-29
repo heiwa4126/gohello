@@ -24,8 +24,8 @@ builds:
       - -trimpath
     ldflags:
       - -s -w
-      - -X github.com/heiwa4126/lspgsql/cli.Version={{.Version}}
-      - -X github.com/heiwa4126/lspgsql/cli.Revision={{.ShortCommit}}
+      - -X github.com/heiwa4126/gohello/cli.Version={{.Version}}
+      - -X github.com/heiwa4126/gohello/cli.Revision={{.ShortCommit}}
 archives:
   - name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
     replacements:
